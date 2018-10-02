@@ -3,6 +3,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import ImageQuestion from "./components/ImageQuestion";
 import Answers from "./components/Answers";
+import Score from "./components/Score";
 
 class App extends Component {
   render() {
@@ -10,7 +11,8 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <h1 className="Title">Dog Game</h1>
-          <ImageQuestion />
+          <Score />
+          <ImageQuestion onclick={scoreCalculation} />
           <Answers />
         </header>
       </div>
