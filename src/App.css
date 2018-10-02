@@ -13,6 +13,14 @@
   padding: 20px;
   color: white;
 }
+/* Score component */
+.score {
+  border: 1px solid grey;
+  right: 20px;
+  top: 20px;
+  width: 40px;
+  height: 20px;
+}
 
 .App-title {
   font-size: 1.5em;
